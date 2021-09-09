@@ -10,6 +10,9 @@ body{
 }
 
 .site_header .button{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
   height: 50px;
   width: 50px;
   text-align: center;
@@ -23,8 +26,6 @@ body{
   font-family: 'Bungee', cursive;
 }
 
-
-
 .site_header nav{
   position: fixed;
   top: 40px;
@@ -32,6 +33,7 @@ body{
   z-index: 1;
 }
 
+/*schermata*/
 .schermata{
   position: relative;
   height:100vh;
@@ -43,14 +45,14 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.model h1{
+.model h2{
   color: yellow;
   font-size: 60px;
   text-align: center;
   line-height: 78.5px;
 }
 
-.yellow h1{
+.yellow h2{
   color: green;
 }
 
