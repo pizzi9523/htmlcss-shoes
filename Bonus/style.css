@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Bungee', cursive;
+  font-weight: 800;
+}
+
+.site_header .button{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 30px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Bungee', cursive;
+}
+
+.button:hover{
+  color: red;
+  transform: scale(1.2);
+}
+
+.site_header nav{
+  position: fixed;
+  top: 40px;
+  right: 1rem;
+  z-index: 1;
+}
+
+/*schermata*/
+.schermata{
+  position: relative;
+  height:100vh;
+}
+
+.model img{
+  transition: all 2s;
+}
+
+img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  box-shadow: 5px -4px 9px 1px black;
+}
+
+.model:hover h2{
+  transform: scale(0.5)
+} 
+
+.model{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.model h2{
+  color: yellow;
+  font-size: 60px;
+  text-align: center;
+  line-height: 78.5px;
+  transition: all 2s;
+}
+
+.yellow h2{
+  color: green;
+}
+
+.red{
+  background-color: red;
+}.green{
+  background-color: green;
+}.yellow{
+  background-color: yellow;
+}
